@@ -1,0 +1,149 @@
+body {
+  background-color: PaleGoldenRod;
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  height: 46px;
+  background-color: white;
+  position: fixed;
+}
+
+.top-container {
+  width: 1400px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.nav {
+  background-color: rgba(0,0,0,0.2);
+  width: 300px;
+  height: 46px;
+  float: left;
+  margin: 10px;
+}
+
+.logo {
+  background-color: rgba(0,0,0,0.2);
+  width: 300px;
+  height: 46px;
+  float: left;
+  margin: 10px;
+}
+
+.options {
+  background-color: rgba(0,0,0,0.2);
+  width: 300px;
+  height: 46px;
+  float: left;
+  margin: 10px;
+}
+
+.nav li {
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+  width: 960px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.left-column {
+  width: 326px;
+  height: 2000px;
+  float: left;
+}
+
+.right-column {
+  width: 634px;
+  height: 2000px;
+  float: right;
+}
+
+.user {
+  margin-top: 55px;
+  width: 312px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.follow {
+  width: 312px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.trend {
+  width: 312px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.info {
+  width: 312px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.tweets {
+  margin-top: 55px;
+  width: 630px;
+  height: 1400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
