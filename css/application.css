@@ -137,13 +137,11 @@ button:hover {
 
 .left-column {
   width: 326px;
-  height: 2000px;
   float: left;
 }
 
 .right-column {
   width: 634px;
-  height: 2000px;
   float: right;
 }
 
@@ -178,10 +176,17 @@ button:hover {
   font-size: 1.4em;
 }
 
+.profile h1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .profile h2 {
   margin-top: 10px;
   font-size: 14px;
   font-weight: bold;
+  padding: 0;
+  color: black;
 }
 
 .stats {
@@ -194,7 +199,8 @@ button:hover {
   font-size: 11px;
   color: #8899a6;
   margin-top: 1em;
-  margin-left: 25px;
+  margin-left: 15px;
+  margin-right: 25px;
 }
 
 .stats h3 {
@@ -243,7 +249,6 @@ h2 {
 .who {
   width: 312px;
   height: 50px;
-  background-color: rgba(0,0,0,0.2);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -272,9 +277,62 @@ h2 {
 .people-to-follow {
   width: 312px;
   height: 140px;
-  background-color: rgba(0,0,0,0.4);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.people-to-follow li {
+  height: 60px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.people-to-follow p .user-link {
+  font-weight: normal;
+  color: #ff7f2a;
+}
+
+.people-to-follow button {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #ffad77;
+  border-radius: 5px;
+  background-color: #fffaf7;
+}
+
+.people-to-follow button:hover {
+  background-color: #ffdbc4;
+}
+
+.people-to-follow button i {
+  color: #ff7f2a;
+}
+
+.avatar-links {
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+
+.people-to-follow h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.people-to-follow h4 a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.people-to-follow p {
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .trend {
@@ -283,6 +341,49 @@ h2 {
   background-color: white;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.trend-header {
+  height: 50px;
+  width: 312px;
+}
+
+.trend-header h2 {
+  width: 60px;
+  float: left;
+}
+
+.trend-links a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #ff7f2a;
+  padding-left: 10px;
+  padding-top: 20px;
+  float: left;
+}
+
+.trend-links a:hover {
+  text-decoration: underline;
+  color: #555555;
+}
+
+.trend-contents {
+  width: 312px;
+  height: 190px;
+}
+
+.trend-contents a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #ff7f2a;
+  margin-left: 15px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.trend-contents a:hover {
+  text-decoration: underline;
+  color: #555555;
 }
 
 .info {
@@ -297,7 +398,7 @@ h2 {
   padding: 10px;
 }
 
-.info-contents h4 {
+h4 {
   font-size: 14px;
   color: #8899a6;
 }
@@ -316,8 +417,105 @@ h2 {
 .tweets {
   margin-top: 55px;
   width: 630px;
-  height: 1400px;
-  background-color: white;
+  background-color: rgba(0,0,0,0.1);
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.tweets-header {
+  height: 50px;
+  width: 630px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+  border-bottom: solid 1px #D9D9D9;
+}
+
+.tweets-header h1 {
+  color: #66757f;
+  font-size: 22px;
+  font-weight: 200;
+  padding: 15px 0px 0px 15px;
+}
+
+.tweet-contents {
+  width: 630px;
+}
+
+.tweet {
+  width: 630px;
+  border-bottom: solid 1px #D9D9D9;
+  background-color: white;
+}
+
+.tweet img {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.tweet h4 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 545px;
+}
+
+.tweet a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.tweet a:hover {
+  text-decoration: underline;
+  color: #ff7f2a;
+}
+
+.tweet p {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: black;
+}
+
+.tweet p a {
+  font-weight: normal;
+  color: #ff7f2a;
+}
+
+.tweet-options {
+  height: 20px;
+  width: 500px;
+  padding-top: 45px;
+  padding-left: 74px;
+  font-size: 12px;
+}
+
+.tweet-options a {
+  text-decoration: none;
+  color: #D9D9D9;
+  font-weight: normal;
+}
+
+.left-options {
+  float: left;
+}
+
+.right-options {
+  float: right;
+}
+
+.right-options a {
+  margin-left: 5px;
+}
+
+.tweet-footer {
+  width: 630px;
+  height: 10px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
